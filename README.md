@@ -3,7 +3,7 @@
 Aplicação Flask conectada ao MongoDB para cadastrar objetos perdidos e encontrados, pesquisar no mural e acompanhar devoluções.
 
 **Autores:** Gustavo Cuba de Oliveira e Lauren Gabriel de Campos.  
-**Disciplina:** Tópicos Especiais — 2º bimestre do 2º semestre de 2026.
+**Disciplina:** Tópicos Especiais — 2026.
 
 ## Arquivos da entrega
 
