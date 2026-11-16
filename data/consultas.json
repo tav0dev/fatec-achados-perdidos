@@ -1,0 +1,237 @@
+{
+  "pendentes": [
+    {
+      "$match": {
+        "$and": [
+          {
+            "status": "aguardando"
+          },
+          {
+            "tipo": {
+              "$in": [
+                "perdido",
+                "encontrado"
+              ]
+            }
+          },
+          {
+            "data_ocorrencia": {
+              "$lte": {
+                "$date": "2026-11-08T00:00:00.000Z"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "codigo": 1,
+        "titulo": 1,
+        "local": "$local.nome",
+        "prioridade": 1,
+        "dias": {
+          "$floor": {
+            "$divide": [
+              {
+                "$subtract": [
+                  {
+                    "$date": "2026-11-15T00:00:00.000Z"
+                  },
+                  "$data_ocorrencia"
+                ]
+              },
+              86400000
+            ]
+          }
+        }
+      }
+    },
+    {
+      "$sort": {
+        "prioridade": -1,
+        "dias": -1,
+        "codigo": 1
+      }
+    }
+  ],
+  "categorias": [
+    {
+      "$match": {
+        "status": {
+          "$nin": [
+            "encerrado"
+          ]
+        }
+      }
+    },
+    {
+      "$group": {
+        "_id": "$categoria",
+        "registros": {
+          "$sum": 1
+        },
+        "unidades": {
+          "$sum": "$quantidade"
+        },
+        "pendentes": {
+          "$sum": {
+            "$cond": [
+              {
+                "$eq": [
+                  "$status",
+                  "aguardando"
+                ]
+              },
+              1,
+              0
+            ]
+          }
+        },
+        "devolvidos": {
+          "$sum": {
+            "$cond": [
+              {
+                "$eq": [
+                  "$status",
+                  "devolvido"
+                ]
+              },
+              1,
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "categoria": "$_id",
+        "registros": 1,
+        "unidades": 1,
+        "pendentes": 1,
+        "devolvidos": 1
+      }
+    },
+    {
+      "$sort": {
+        "registros": -1,
+        "categoria": 1
+      }
+    }
+  ],
+  "locais": [
+    {
+      "$match": {
+        "data_ocorrencia": {
+          "$exists": true
+        },
+        "status": {
+          "$ne": "encerrado"
+        }
+      }
+    },
+    {
+      "$group": {
+        "_id": "$local.nome",
+        "registros": {
+          "$sum": 1
+        },
+        "encontrados": {
+          "$sum": {
+            "$cond": [
+              {
+                "$eq": [
+                  "$tipo",
+                  "encontrado"
+                ]
+              },
+              1,
+              0
+            ]
+          }
+        },
+        "perdidos": {
+          "$sum": {
+            "$cond": [
+              {
+                "$eq": [
+                  "$tipo",
+                  "perdido"
+                ]
+              },
+              1,
+              0
+            ]
+          }
+        },
+        "primeira": {
+          "$min": "$data_ocorrencia"
+        },
+        "ultima": {
+          "$max": "$data_ocorrencia"
+        }
+      }
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "local": "$_id",
+        "registros": 1,
+        "encontrados": 1,
+        "perdidos": 1,
+        "primeira": 1,
+        "ultima": 1
+      }
+    },
+    {
+      "$sort": {
+        "registros": -1,
+        "local": 1
+      }
+    }
+  ],
+  "caracteristicas": [
+    {
+      "$match": {
+        "status": "aguardando",
+        "caracteristicas": {
+          "$exists": true,
+          "$ne": []
+        }
+      }
+    },
+    {
+      "$unwind": "$caracteristicas"
+    },
+    {
+      "$group": {
+        "_id": "$caracteristicas",
+        "registros": {
+          "$sum": 1
+        },
+        "categorias": {
+          "$addToSet": "$categoria"
+        }
+      }
+    },
+    {
+      "$project": {
+        "_id": 0,
+        "caracteristica": "$_id",
+        "registros": 1,
+        "categorias": {
+          "$size": "$categorias"
+        }
+      }
+    },
+    {
+      "$sort": {
+        "registros": -1,
+        "caracteristica": 1
+      }
+    }
+  ]
+}

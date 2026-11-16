@@ -1,0 +1,76 @@
+{% macro icon(name, size=20) -%}
+<svg width="{{ size }}" height="{{ size }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+{% if name == 'grid' %}<rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/>
+{% elif name == 'home' %}<path d="m3 11 9-8 9 8M5 10v11h5v-7h4v7h5V10"/>
+{% elif name == 'box' %}<path d="m12 3 9 5-9 5-9-5 9-5ZM3 8v9l9 5 9-5V8M12 13v9M7 5.8l9 5"/>
+{% elif name == 'chart' %}<path d="M4 3v18h17M9 16v-5M14 16V7M19 16V4"/>
+{% elif name == 'plus' %}<path d="M12 5v14M5 12h14"/>
+{% elif name == 'arrow' %}<path d="M5 12h14m-5-5 5 5-5 5"/>
+{% elif name == 'back' %}<path d="M19 12H5m5-5-5 5 5 5"/>
+{% elif name == 'clock' %}<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+{% elif name == 'check' %}<path d="m5 12 4 4L19 6"/>
+{% elif name == 'heart' %}<path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"/>
+{% elif name == 'download' %}<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>
+{% elif name == 'search' %}<circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/>
+{% elif name == 'people' %}<circle cx="9" cy="8" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 5a3 3 0 0 1 0 6M21 21v-3a6 6 0 0 0-3-5"/>
+{% elif name == 'info' %}<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/>
+{% elif name == 'edit' %}<path d="m15 4 5 5M4 20l5-1L21 7a2 2 0 0 0-5-5L4 15v5Z"/>
+{% elif name == 'pin' %}<path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>
+{% elif name == 'tag' %}<path d="M3 3h8l10 10-8 8L3 11V3Z"/><circle cx="7.5" cy="7.5" r="1"/>
+{% elif name == 'external' %}<path d="M14 3h7v7M21 3l-12 12M10 3H4v17h17v-6"/>
+{% elif name == 'key' %}<circle cx="12" cy="7" r="4"/><path d="M12 11v11M12 16h4M12 20h3"/>
+{% elif name == 'document' %}<path d="M6 3h9l4 4v14H6V3ZM14 3v5h5M9 12h7M9 16h7"/>
+{% elif name == 'bottle' %}<path d="M10 3h4v4l3 4v10H7V11l3-4V3ZM10 7h4M7 14h10"/>
+{% elif name == 'shirt' %}<path d="m8 3-6 4 3 5 3-2v11h8V10l3 2 3-5-6-4c-1 4-7 4-8 0Z"/>
+{% elif name == 'headphones' %}<path d="M4 14v-3a8 8 0 0 1 16 0v3M4 12h4v8H4V12ZM16 12h4v8h-4v-8Z"/>
+{% elif name == 'trash' %}<path d="M4 5h16M9 5V3h6v2M6 5l1 16h10l1-16M10 9v8M14 9v8"/>
+{% elif name == 'filter' %}<path d="M3 5h18M6 12h12M10 19h4"/>
+{% elif name == 'menu' %}<path d="M3 6h18M3 12h18M3 18h18"/>
+{% elif name == 'contrast' %}<circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18Z" fill="currentColor" stroke="none"/>
+{% else %}<circle cx="12" cy="12" r="9"/><path d="M8 12h8M12 8v8"/>{% endif %}
+</svg>
+{%- endmacro %}
+
+{% macro item_symbol(category, size=26) -%}
+{{ icon({'Eletrônicos':'headphones','Documentos':'document','Chaves':'key','Roupas e acessórios':'shirt','Materiais de estudo':'document','Garrafas e recipientes':'bottle'}.get(category,'box'), size) }}
+{%- endmacro %}
+
+{% macro badge(item) -%}
+<span class="badge {{ item.status }}"><span class="status-dot"></span>{% if item.status == 'aguardando' %}{{ 'Aguardando retirada' if item.tipo == 'encontrado' else 'Em busca do item' }}{% elif item.status == 'devolvido' %}Devolvido{% else %}Encerrado{% endif %}</span>
+{%- endmacro %}
+
+{% macro item_card(item, compact=False) -%}
+<article class="item-card">
+  {% set photo = item_photo(item) %}
+  <div class="item-card-art category-{{ categories.index(item.categoria) }}">
+    <span class="type-label {{ item.tipo }}">{{ types[item.tipo]|upper }}</span>
+    {% if photo %}
+    <img class="item-photo" src="{{ url_for('static', filename=photo.file) }}" alt="Foto ilustrativa de {{ item.titulo }}" width="700" height="700" loading="lazy" decoding="async">
+    {% else %}<span class="object-drawing">{{ item_symbol(item.categoria, 50) }}</span>{% endif %}
+    {% if item.prioridade %}<span class="priority-label">Prioritário</span>{% endif %}
+    <span class="art-caption">{{ 'Foto ilustrativa' if photo else 'Sem foto' }}</span>
+  </div>
+  <div class="item-card-content"><div class="card-code">{% if compact %}{{ types[item.tipo] }}{% else %}{{ item.codigo }}{% endif %} <span>{{ item.data_ocorrencia|datebr }}</span></div>
+  <h3><a href="{{ url_for('web.detail', code=item.codigo) }}">{{ item.titulo }}</a></h3>
+  {% if not compact %}<p class="card-description">{{ item.descricao }}</p>{% endif %}
+  <div class="card-location">{{ icon('pin',15) }}{{ item.local.nome }}{% if item.local.bloco %}<span>· {{ item.local.bloco }}</span>{% endif %}</div>
+  <div class="card-bottom">{{ badge(item) }}<a class="text-link" href="{{ url_for('web.detail', code=item.codigo) }}" aria-label="Ver detalhes de {{ item.titulo }}">Ver detalhes {{ icon('arrow',18) }}</a></div></div>
+</article>
+{%- endmacro %}
+
+{% macro error_summary(errors) -%}
+{% if errors %}<div class="notice error error-summary" id="form-errors" role="alert" tabindex="-1" aria-labelledby="form-errors-title">
+{{ icon('info',22) }}<div><h2 id="form-errors-title">Confira os campos para continuar</h2><p>Os dados preenchidos foram mantidos. Selecione um erro para ir ao campo.</p><ul>
+{% for name,message in errors.items() %}<li>{% if name != 'geral' %}<a href="#{{ name }}">{{ message }}</a>{% else %}{{ message }}{% endif %}</li>{% endfor %}
+</ul></div></div>{% endif %}
+{%- endmacro %}
+
+{% macro field_error_attributes(errors, name) -%}
+{% if errors.get(name) %}aria-invalid="true" aria-describedby="error-{{ name }}"{% endif %}
+{%- endmacro %}
+
+{% macro input_field(data, errors, name, label, type='text', required=True, placeholder='', limit=160, wide=False) -%}
+<div class="field {{ 'wide' if wide }}"><label for="{{ name }}">{{ label }}{% if required %} <span aria-hidden="true">*</span>{% endif %}</label>
+<input id="{{ name }}" name="{{ name }}" type="{{ type }}" value="{{ data.get(name,'') }}" placeholder="{{ placeholder }}" {% if name == 'email' %}autocomplete="email"{% elif name == 'relator_nome' %}autocomplete="name"{% endif %} {% if required %}required{% endif %} {% if type == 'number' %}min="1" max="100" step="1"{% elif type == 'date' %}max="{{ today.strftime('%Y-%m-%d') }}"{% else %}maxlength="{{ limit }}"{% endif %} {{ field_error_attributes(errors,name) }}>
+{% if errors.get(name) %}<small id="error-{{ name }}" class="field-error">{{ errors[name] }}</small>{% endif %}</div>
+{%- endmacro %}

@@ -1,0 +1,14 @@
+.venv*/
+.local/
+__pycache__/
+*.py[cod]
+.env
+*.log
+*.pdf:Zone.Identifier
+*.Identifier
+.DS_Store
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/

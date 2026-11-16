@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="simple-intro" aria-labelledby="home-title">
+  <h1 id="home-title">Achados e perdidos</h1>
+  <p>Perdeu algo? Busque no mural.</p>
+  <form method="get" action="{{ url_for('web.items') }}" role="search" aria-label="Buscar um item">
+    <label class="sr-only" for="home-search">Nome, cor ou característica do item</label>
+    <div class="search-input">{{ icon('search',20) }}<input id="home-search" name="q" type="search" maxlength="100" placeholder="Ex.: garrafa azul"><button class="button primary" type="submit">Buscar</button></div>
+  </form>
+</section>
+<section aria-labelledby="recent-title">
+  <div class="section-heading"><h2 id="recent-title">Itens recentes</h2><a class="text-link" href="{{ url_for('web.items') }}">Ver todos {{ icon('arrow',17) }}</a></div>
+  <div class="cards-grid">{% for item in recent[:3] %}{{ item_card(item, compact=True) }}{% else %}<div class="empty-state wide"><h3>Nenhum item registrado.</h3><p>Perdeu ou encontrou algo? Faça o primeiro registro.</p></div>{% endfor %}</div>
+</section>
+{% endblock %}

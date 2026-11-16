@@ -1,0 +1,31 @@
+{
+  "source": "https://fatecitapetininga.cps.sp.gov.br/requerimento/",
+  "checked_at": "2026-11-15",
+  "items": [
+    {
+      "title": "Vestibular Fatec",
+      "url": "https://fatecitapetininga.cps.sp.gov.br/vestibular-fatec/",
+      "image": "brand/fatec-site/news-1.jpg"
+    },
+    {
+      "title": "Mini-Maratona de Programação",
+      "url": "https://fatecitapetininga.cps.sp.gov.br/mini-maratona-de-programacao/",
+      "image": "brand/fatec-site/news-2.jpg"
+    },
+    {
+      "title": "Resultado das Eleições para a CPA – Comissão Própria de Avaliação e Congregação",
+      "url": "https://fatecitapetininga.cps.sp.gov.br/resultado-das-eleicoes-para-a-cpa-comissao-propria-de-avaliacao-e-congregacao/",
+      "image": "brand/fatec-site/news-3.jpg"
+    },
+    {
+      "title": "Vestibular Fatec 2026",
+      "url": "https://fatecitapetininga.cps.sp.gov.br/vestibular-fatec-2026/",
+      "image": "brand/fatec-site/news-4.jpg"
+    },
+    {
+      "title": "📌 Período de Votação – Eleição para a escolha de alunos da CPA e Congregação!",
+      "url": "https://fatecitapetininga.cps.sp.gov.br/%f0%9f%93%8c-periodo-de-votacao-eleicao-para-a-escolha-de-alunos-da-comissao-propria-de-avaliacao-cpa-e-congregacao/",
+      "image": "brand/fatec-site/news-5.jpg"
+    }
+  ]
+}

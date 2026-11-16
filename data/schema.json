@@ -1,0 +1,180 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "title": "Ocorrência de achados e perdidos — Fatec Itapetininga",
+    "required": [
+      "codigo",
+      "titulo",
+      "descricao",
+      "categoria",
+      "tipo",
+      "status",
+      "data_ocorrencia",
+      "local",
+      "relator",
+      "caracteristicas",
+      "quantidade",
+      "cor",
+      "marca",
+      "local_guarda",
+      "prioridade",
+      "contato_autorizado",
+      "data_devolucao",
+      "retirante",
+      "observacoes",
+      "criado_em",
+      "atualizado_em"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "codigo": {
+        "bsonType": "string",
+        "minLength": 1
+      },
+      "titulo": {
+        "bsonType": "string",
+        "minLength": 3,
+        "maxLength": 100
+      },
+      "descricao": {
+        "bsonType": "string",
+        "minLength": 10,
+        "maxLength": 1000
+      },
+      "categoria": {
+        "enum": [
+          "Eletrônicos",
+          "Documentos",
+          "Chaves",
+          "Roupas e acessórios",
+          "Materiais de estudo",
+          "Garrafas e recipientes",
+          "Outros"
+        ]
+      },
+      "tipo": {
+        "enum": [
+          "encontrado",
+          "perdido"
+        ]
+      },
+      "status": {
+        "enum": [
+          "aguardando",
+          "devolvido",
+          "encerrado"
+        ]
+      },
+      "data_ocorrencia": {
+        "bsonType": "date"
+      },
+      "local": {
+        "bsonType": "object",
+        "required": [
+          "nome",
+          "bloco",
+          "referencia"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "nome": {
+            "bsonType": "string"
+          },
+          "bloco": {
+            "bsonType": "string"
+          },
+          "referencia": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "relator": {
+        "bsonType": "object",
+        "required": [
+          "nome",
+          "email",
+          "vinculo"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "nome": {
+            "bsonType": "string"
+          },
+          "email": {
+            "bsonType": "string"
+          },
+          "vinculo": {
+            "enum": [
+              "Aluno",
+              "Docente",
+              "Servidor",
+              "Visitante"
+            ]
+          }
+        }
+      },
+      "caracteristicas": {
+        "bsonType": "array",
+        "maxItems": 12,
+        "items": {
+          "bsonType": "string",
+          "maxLength": 40
+        }
+      },
+      "quantidade": {
+        "bsonType": "int",
+        "minimum": 1,
+        "maximum": 100
+      },
+      "cor": {
+        "bsonType": "string"
+      },
+      "marca": {
+        "bsonType": "string"
+      },
+      "local_guarda": {
+        "bsonType": "string"
+      },
+      "prioridade": {
+        "bsonType": "bool"
+      },
+      "contato_autorizado": {
+        "bsonType": "bool"
+      },
+      "data_devolucao": {
+        "bsonType": [
+          "date",
+          "null"
+        ]
+      },
+      "retirante": {
+        "bsonType": "object",
+        "required": [
+          "nome",
+          "comprovacao"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "nome": {
+            "bsonType": "string"
+          },
+          "comprovacao": {
+            "bsonType": "string"
+          }
+        }
+      },
+      "observacoes": {
+        "bsonType": "string"
+      },
+      "criado_em": {
+        "bsonType": "date"
+      },
+      "atualizado_em": {
+        "bsonType": "date"
+      }
+    }
+  }
+}

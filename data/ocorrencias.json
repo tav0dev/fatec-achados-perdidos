@@ -1,0 +1,1600 @@
+[
+  {
+    "codigo": "AP-0001",
+    "titulo": "Garrafa térmica azul",
+    "descricao": "Garrafa térmica com tampa de rosquear e um adesivo de estrela na lateral.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "perdido",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Ana Martins",
+      "email": "pessoa01@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "azul",
+      "térmica",
+      "adesivo"
+    ],
+    "quantidade": 2,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Diego Ferreira",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0002",
+    "titulo": "Fone de ouvido sem fio",
+    "descricao": "Par de fones dentro de um estojo branco com pequeno risco na tampa.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Bruno Almeida",
+      "email": "pessoa02@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "branco",
+      "sem fio",
+      "estojo"
+    ],
+    "quantidade": 1,
+    "cor": "Branco",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0003",
+    "titulo": "Chaveiro com três chaves",
+    "descricao": "Chaveiro com três chaves e uma pequena etiqueta de tecido vermelho.",
+    "categoria": "Chaves",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Carla Santos",
+      "email": "pessoa03@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "prata",
+      "chaveiro",
+      "três chaves"
+    ],
+    "quantidade": 1,
+    "cor": "Prata",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0004",
+    "titulo": "Caderno de capa preta",
+    "descricao": "Caderno universitário com anotações de programação e capa preta sem nome.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Diego Ferreira",
+      "email": "pessoa04@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "espiral",
+      "anotações"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Tilibra",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0005",
+    "titulo": "Carteirinha de estudante",
+    "descricao": "Carteirinha de estudante sem outros documentos. Dados pessoais omitidos.",
+    "categoria": "Documentos",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Elisa Costa",
+      "email": "pessoa05@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "carteirinha",
+      "estudante",
+      "identificação"
+    ],
+    "quantidade": 1,
+    "cor": "Branco",
+    "marca": "Fatec",
+    "local_guarda": "",
+    "prioridade": true,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0006",
+    "titulo": "Jaqueta jeans",
+    "descricao": "Jaqueta jeans de tamanho médio com um pequeno bordado na manga esquerda.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "encontrado",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-10-31T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Felipe Lima",
+      "email": "pessoa06@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "azul",
+      "jeans",
+      "tamanho m"
+    ],
+    "quantidade": 1,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Isabela Rocha",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-31T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0007",
+    "titulo": "Estojo vermelho",
+    "descricao": "Estojo vermelho com duas canetas azuis, uma lapiseira e uma borracha.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Giovana Ribeiro",
+      "email": "pessoa07@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "vermelho",
+      "zíper",
+      "canetas"
+    ],
+    "quantidade": 1,
+    "cor": "Vermelho",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0008",
+    "titulo": "Carregador USB-C",
+    "descricao": "Carregador com cabo USB-C e fita de identificação na extremidade.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Henrique Souza",
+      "email": "pessoa08@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "preto",
+      "usb-c",
+      "cabo"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Samsung",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0009",
+    "titulo": "Óculos de grau",
+    "descricao": "Óculos de grau com armação marrom retangular e estojo de tecido.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Isabela Rocha",
+      "email": "pessoa09@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "marrom",
+      "óculos",
+      "armação"
+    ],
+    "quantidade": 1,
+    "cor": "Marrom",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0010",
+    "titulo": "Guarda-chuva compacto",
+    "descricao": "Guarda-chuva preto dobrável com alça de mão e capa protetora.",
+    "categoria": "Outros",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "João Mendes",
+      "email": "pessoa10@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "dobrável",
+      "alça"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0011",
+    "titulo": "Pote de alimentação",
+    "descricao": "Pote para alimentos com tampa verde e uma pequena bolsa térmica cinza.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "encontrado",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-11-10T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Letícia Alves",
+      "email": "pessoa11@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "verde",
+      "tampa",
+      "recipiente"
+    ],
+    "quantidade": 1,
+    "cor": "Verde",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Bruno Almeida",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-10T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0012",
+    "titulo": "Pen drive de 32 GB",
+    "descricao": "Pen drive metálico com argola e capacidade de 32 GB indicada no corpo.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "encerrado",
+    "data_ocorrencia": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Miguel Barbosa",
+      "email": "pessoa12@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "prata",
+      "usb",
+      "32 gb"
+    ],
+    "quantidade": 1,
+    "cor": "Prata",
+    "marca": "Kingston",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0013",
+    "titulo": "Garrafa térmica azul",
+    "descricao": "Garrafa térmica com tampa de rosquear e um adesivo de estrela na lateral.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-04T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Ana Martins",
+      "email": "pessoa13@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "azul",
+      "térmica",
+      "adesivo"
+    ],
+    "quantidade": 1,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-04T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-04T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0014",
+    "titulo": "Fone de ouvido sem fio",
+    "descricao": "Par de fones dentro de um estojo branco com pequeno risco na tampa.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Bruno Almeida",
+      "email": "pessoa14@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "branco",
+      "sem fio",
+      "estojo"
+    ],
+    "quantidade": 2,
+    "cor": "Branco",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-01T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0015",
+    "titulo": "Chaveiro com três chaves",
+    "descricao": "Chaveiro com três chaves e uma pequena etiqueta de tecido vermelho.",
+    "categoria": "Chaves",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-29T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Carla Santos",
+      "email": "pessoa15@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "prata",
+      "chaveiro",
+      "três chaves"
+    ],
+    "quantidade": 1,
+    "cor": "Prata",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-29T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-29T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0016",
+    "titulo": "Caderno de capa preta",
+    "descricao": "Caderno universitário com anotações de programação e capa preta sem nome.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-10-26T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Diego Ferreira",
+      "email": "pessoa16@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "espiral",
+      "anotações"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Tilibra",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Giovana Ribeiro",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-26T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0017",
+    "titulo": "Carteirinha de estudante",
+    "descricao": "Carteirinha de estudante sem outros documentos. Dados pessoais omitidos.",
+    "categoria": "Documentos",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-23T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Elisa Costa",
+      "email": "pessoa17@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "carteirinha",
+      "estudante",
+      "identificação"
+    ],
+    "quantidade": 1,
+    "cor": "Branco",
+    "marca": "Fatec",
+    "local_guarda": "",
+    "prioridade": true,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-23T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-23T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0018",
+    "titulo": "Jaqueta jeans",
+    "descricao": "Jaqueta jeans de tamanho médio com um pequeno bordado na manga esquerda.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-14T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Felipe Lima",
+      "email": "pessoa18@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "azul",
+      "jeans",
+      "tamanho m"
+    ],
+    "quantidade": 1,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-14T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-14T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0019",
+    "titulo": "Estojo vermelho",
+    "descricao": "Estojo vermelho com duas canetas azuis, uma lapiseira e uma borracha.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Giovana Ribeiro",
+      "email": "pessoa19@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "vermelho",
+      "zíper",
+      "canetas"
+    ],
+    "quantidade": 1,
+    "cor": "Vermelho",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-11T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0020",
+    "titulo": "Carregador USB-C",
+    "descricao": "Carregador com cabo USB-C e fita de identificação na extremidade.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-08T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Henrique Souza",
+      "email": "pessoa20@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "usb-c",
+      "cabo"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Samsung",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-08T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-08T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0021",
+    "titulo": "Óculos de grau",
+    "descricao": "Óculos de grau com armação marrom retangular e estojo de tecido.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "perdido",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-11-05T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Isabela Rocha",
+      "email": "pessoa21@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "marrom",
+      "óculos",
+      "armação"
+    ],
+    "quantidade": 1,
+    "cor": "Marrom",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Miguel Barbosa",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-05T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0022",
+    "titulo": "Guarda-chuva compacto",
+    "descricao": "Guarda-chuva preto dobrável com alça de mão e capa protetora.",
+    "categoria": "Outros",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "João Mendes",
+      "email": "pessoa22@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "preto",
+      "dobrável",
+      "alça"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0023",
+    "titulo": "Pote de alimentação",
+    "descricao": "Pote para alimentos com tampa verde e uma pequena bolsa térmica cinza.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-30T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Letícia Alves",
+      "email": "pessoa23@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "verde",
+      "tampa",
+      "recipiente"
+    ],
+    "quantidade": 1,
+    "cor": "Verde",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-30T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-30T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0024",
+    "titulo": "Pen drive de 32 GB",
+    "descricao": "Pen drive metálico com argola e capacidade de 32 GB indicada no corpo.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "encerrado",
+    "data_ocorrencia": {
+      "$date": "2026-10-27T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Miguel Barbosa",
+      "email": "pessoa24@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "prata",
+      "usb",
+      "32 gb"
+    ],
+    "quantidade": 1,
+    "cor": "Prata",
+    "marca": "Kingston",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-27T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-27T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0025",
+    "titulo": "Garrafa térmica azul",
+    "descricao": "Garrafa térmica com tampa de rosquear e um adesivo de estrela na lateral.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-24T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Ana Martins",
+      "email": "pessoa25@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "azul",
+      "térmica",
+      "adesivo"
+    ],
+    "quantidade": 1,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-24T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-24T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0026",
+    "titulo": "Fone de ouvido sem fio",
+    "descricao": "Par de fones dentro de um estojo branco com pequeno risco na tampa.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Biblioteca",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Bruno Almeida",
+      "email": "pessoa26@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "branco",
+      "sem fio",
+      "estojo"
+    ],
+    "quantidade": 1,
+    "cor": "Branco",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "Elisa Costa",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-15T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0027",
+    "titulo": "Chaveiro com três chaves",
+    "descricao": "Chaveiro com três chaves e uma pequena etiqueta de tecido vermelho.",
+    "categoria": "Chaves",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Carla Santos",
+      "email": "pessoa27@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "prata",
+      "chaveiro",
+      "três chaves"
+    ],
+    "quantidade": 2,
+    "cor": "Prata",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-12T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0028",
+    "titulo": "Caderno de capa preta",
+    "descricao": "Caderno universitário com anotações de programação e capa preta sem nome.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Laboratórios",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Diego Ferreira",
+      "email": "pessoa28@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "espiral",
+      "anotações"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Tilibra",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-09T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0029",
+    "titulo": "Carteirinha de estudante",
+    "descricao": "Carteirinha de estudante sem outros documentos. Dados pessoais omitidos.",
+    "categoria": "Documentos",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Elisa Costa",
+      "email": "pessoa29@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "carteirinha",
+      "estudante",
+      "identificação"
+    ],
+    "quantidade": 1,
+    "cor": "Branco",
+    "marca": "Fatec",
+    "local_guarda": "",
+    "prioridade": true,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-06T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0030",
+    "titulo": "Jaqueta jeans",
+    "descricao": "Jaqueta jeans de tamanho médio com um pequeno bordado na manga esquerda.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Salas de aula",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Felipe Lima",
+      "email": "pessoa30@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "azul",
+      "jeans",
+      "tamanho m"
+    ],
+    "quantidade": 1,
+    "cor": "Azul",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-03T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0031",
+    "titulo": "Estojo vermelho",
+    "descricao": "Estojo vermelho com duas canetas azuis, uma lapiseira e uma borracha.",
+    "categoria": "Materiais de estudo",
+    "tipo": "encontrado",
+    "status": "devolvido",
+    "data_ocorrencia": {
+      "$date": "2026-10-31T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Giovana Ribeiro",
+      "email": "pessoa31@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "vermelho",
+      "zíper",
+      "canetas"
+    ],
+    "quantidade": 1,
+    "cor": "Vermelho",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    },
+    "retirante": {
+      "nome": "João Mendes",
+      "comprovacao": "Proprietário descreveu detalhes do item antes da entrega."
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-31T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-02T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0032",
+    "titulo": "Carregador USB-C",
+    "descricao": "Carregador com cabo USB-C e fita de identificação na extremidade.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Cantina",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Henrique Souza",
+      "email": "pessoa32@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "usb-c",
+      "cabo"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Samsung",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-28T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0033",
+    "titulo": "Óculos de grau",
+    "descricao": "Óculos de grau com armação marrom retangular e estojo de tecido.",
+    "categoria": "Roupas e acessórios",
+    "tipo": "perdido",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Isabela Rocha",
+      "email": "pessoa33@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "marrom",
+      "óculos",
+      "armação"
+    ],
+    "quantidade": 1,
+    "cor": "Marrom",
+    "marca": "Sem marca",
+    "local_guarda": "",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-25T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0034",
+    "titulo": "Guarda-chuva compacto",
+    "descricao": "Guarda-chuva preto dobrável com alça de mão e capa protetora.",
+    "categoria": "Outros",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Pátio",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "João Mendes",
+      "email": "pessoa34@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "preto",
+      "dobrável",
+      "alça"
+    ],
+    "quantidade": 1,
+    "cor": "Preto",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": false,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-10-22T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0035",
+    "titulo": "Pote de alimentação",
+    "descricao": "Pote para alimentos com tampa verde e uma pequena bolsa térmica cinza.",
+    "categoria": "Garrafas e recipientes",
+    "tipo": "encontrado",
+    "status": "aguardando",
+    "data_ocorrencia": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Anexo",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Letícia Alves",
+      "email": "pessoa35@example.com",
+      "vinculo": "Aluno"
+    },
+    "caracteristicas": [
+      "verde",
+      "tampa",
+      "recipiente"
+    ],
+    "quantidade": 1,
+    "cor": "Verde",
+    "marca": "Sem marca",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-13T00:00:00.000Z"
+    }
+  },
+  {
+    "codigo": "AP-0036",
+    "titulo": "Pen drive de 32 GB",
+    "descricao": "Pen drive metálico com argola e capacidade de 32 GB indicada no corpo.",
+    "categoria": "Eletrônicos",
+    "tipo": "encontrado",
+    "status": "encerrado",
+    "data_ocorrencia": {
+      "$date": "2026-11-10T00:00:00.000Z"
+    },
+    "local": {
+      "nome": "Estacionamento",
+      "bloco": "Principal",
+      "referencia": "Local fictício utilizado na demonstração acadêmica."
+    },
+    "relator": {
+      "nome": "Miguel Barbosa",
+      "email": "pessoa36@example.com",
+      "vinculo": "Docente"
+    },
+    "caracteristicas": [
+      "prata",
+      "usb",
+      "32 gb"
+    ],
+    "quantidade": 1,
+    "cor": "Prata",
+    "marca": "Kingston",
+    "local_guarda": "Ponto de atendimento — exemplo",
+    "prioridade": false,
+    "contato_autorizado": true,
+    "data_devolucao": null,
+    "retirante": {
+      "nome": "",
+      "comprovacao": ""
+    },
+    "observacoes": "Registro fictício. Não representa uma ocorrência real da Fatec.",
+    "criado_em": {
+      "$date": "2026-11-10T00:00:00.000Z"
+    },
+    "atualizado_em": {
+      "$date": "2026-11-10T00:00:00.000Z"
+    }
+  }
+]
